@@ -31,11 +31,11 @@
                     </a>
 
                         <?php if(PRODUCT_TYPE == 'pro') { ?>
-                        <a class="btn btn-neutral mb-3 mb-sm-0" href="https://docs.anofie-pro.classiebit.com" target="_blank">
+                        <a class="btn btn-neutral mb-3 mb-sm-0" href="https://anofie-pro-docs.classiebit.com" target="_blank">
                             <span class="nav-link-inner--icon text-primary"><i class="fas fa-book"></i> Docs</span>
                         </a>
                         <?php } else { ?>
-                        <a class="btn btn-neutral mb-3 mb-sm-0" href="https://docs.anofie.classiebit.com" target="_blank">
+                        <a class="btn btn-neutral mb-3 mb-sm-0" href="https://anofie-docs.classiebit.com" target="_blank">
                             <span class="nav-link-inner--icon text-primary"><i class="fas fa-book"></i> Docs</span>
                         </a>
                         <?php } ?>

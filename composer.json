@@ -1,0 +1,21 @@
+{
+	"name": "classiebit/anofie",
+	"type": "project",
+	"description": "Anonymous Feedback System Remastered",
+    "keywords": [
+        "script",
+        "codeigniter",
+        "anonymous feedback",
+        "anofie"
+    ],
+	"license": "MIT",
+	"homepage": "https://classiebit.com/anofie",
+	"support": {
+		"discussion": "https://classiebit.com/anofie/comments",
+		"wiki": "https://github.com/classiebit/anofie/issues",
+		"source": "https://github.com/classiebit/anofie"
+	},
+	"require": {
+		"php": ">=5.6.0"
+	}
+}

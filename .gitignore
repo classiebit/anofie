@@ -1,12 +1,6 @@
-# dev tools
-npm-debug.log
-
 # custom
-/upload
-/captcha
-/application/database_backup
-/application/vendor
-/application/composer.lock
+/upload/*
+/captcha/*
 
 # OSX Specific files
 .DS_Store
