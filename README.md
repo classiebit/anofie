@@ -1,4 +1,4 @@
-# Anofie Lite
+# Anofie
 
 Anofie is an anonymous feedback system. Using Anofie, you can launch your dedicated platform for Anonymous Feedback on your domain. Anofie is better than the popular anonymous feedback website. It is more secure, scalable & ready to use in production. 
 
@@ -8,8 +8,13 @@ Just **download** it, **install** directly on **your server** and start collecti
 
 ---
 
+#### Read the beautiful documentation here - [Anofie Docs](https://anofie-docs.classiebit.com)
+
+---
+
 ![Anofie - Anonymous feedback script remastered](https://anofie-docs.classiebit.com/images/anofie-docs-banner-1.jpg "Anofie - Anonymous feedback script remastered")
 
+---
 
 > **Here's a complete video tutorial guide for getting started quickly ✌️**
 
@@ -21,6 +26,7 @@ Just **download** it, **install** directly on **your server** and start collecti
 + [Github](https://github.com/classiebit/anofie) - Give us a Star.
 + [Download](https://classiebit.com/anofie) - Visit here to download.
 
+---
 
 ## Pro Version
 
@@ -29,15 +35,17 @@ Just **download** it, **install** directly on **your server** and start collecti
 + [Live](https://anofie.com) - Coming soon.
 + [Purchase](https://classiebit.com/anofie-pro) - Subscribe now for notifications, will be soon available for Purchase here
 
+---
 
-# Installation
+## Installation
 
 Anofie comes with an installer that makes the installation process fully automated and smooth as 🍻
 
----
 
 ![Anofie Installer](https://anofie-docs.classiebit.com/images/anofie-free-installer-1.png "Anofie Installer Screenshot")
 
+
+---
 
 > **We've made a video for you to get started quickly. Have a look 💪**
 
@@ -85,31 +93,36 @@ Anofie comes with an installer that makes the installation process fully automat
 8. After the installation sucessful, **PLEASE DELETE THE INSTALL FOLDER**
 
 
+---
+
 > **Make sure `.htaccess` files exist and not hidden.**
 
 ---
 
 > **DO NOT FORGET TO DELETE THE `INSTALL` FOLDER**
 
+---
 
-# Demo Accounts
+## Demo Accounts
 
 Demo accounts have got `demo data` to easily showcase all the features of Anofie.
 
-<br>
 1. We refresh the database every day.
 2. While in demo mode, there are no restrictions except -
-
-    - Deleting or Disabling user account.
-    - Changing Username, email, password and profile pic.
-
+    * Deleting or Disabling user account.
+    * Changing Username, email, password and profile pic.
 
 ---
 
 To test in a specific language, we've mentioned language preference after each demo account- 
 `e.g Roman Pane (Russian)`, so when you log in via `romanpane@mail.com` please change the language (see in the footer) to `Russian` to see everything in `Russian`
 
+---
+
 > **Password is same for all - `password`**
+
+---
+
 
 1. David Lane (English)         - `davidlane@mail.com`
 2. Cora Woods (English)         - `corawoods@mail.com`
@@ -126,13 +139,16 @@ To test in a specific language, we've mentioned language preference after each d
 9. Alex Hart (Japanese)         - `alexhart@mail.com`
 10. Sonia Maxwell (Japanese)    - `soniamaxwell@mail.com`
 
+<br>
 
+**Accounts having access to `Admin Panel`**
 
-### Accounts having access to `Admin Panel`
 
 1. Semi-Admin (limited admin)   - `semiadmin@mail.com`
 2. Super-Admin (full access)    - `admin@admin.com`
 
 ---
 
-> To visit `Admin Panel` hover over profile icon in the header and click `Admin`
+#### Read the beautiful documentation here - [Anofie Docs](https://anofie-docs.classiebit.com)
+
+---
