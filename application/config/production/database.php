@@ -63,10 +63,10 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'          => '',
-	'hostname'     => 'localhost',
-	'username'     => 'anofie_pro_user',
-	'password'     => 'L52!372?%y@&$q@G',
-	'database'     => 'anofie_pro_db',
+	'hostname'     => '',
+	'username'     => '',
+	'password'     => '',
+	'database'     => '',
 	'dbdriver'     => 'mysqli',
 	'dbprefix'     => '',
 	'pconnect'     => FALSE,

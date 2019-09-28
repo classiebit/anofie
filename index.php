@@ -68,11 +68,17 @@ define('PRODUCT_TYPE', 'lite');
 
 /* ------------- ENVIRONMENT ----------- */
 $server = 'development'; // local env
-if($_SERVER['REMOTE_ADDR'] != '127.0.0.1' && $_SERVER['REMOTE_ADDR'] != '::1' && $_SERVER['HTTP_HOST'] != 'devanofie.classiebit.com')
+if($_SERVER['REMOTE_ADDR'] != '127.0.0.1' && 
+    $_SERVER['REMOTE_ADDR'] != '::1' && 
+    $_SERVER['HTTP_HOST'] != 'devanofie.classiebit.com' &&
+    $_SERVER['HTTP_HOST'] != 'anofie.com')
     $server = 'production'; // live main env
 
-if($_SERVER['REMOTE_ADDR'] != '127.0.0.1' && $_SERVER['REMOTE_ADDR'] != '::1' && $_SERVER['HTTP_HOST'] == 'devanofie.classiebit.com')
-    $server = 'testing'; // live testing env
+if($_SERVER['HTTP_HOST'] == 'devanofie.classiebit.com')
+    $server = 'dev'; // dev env
+
+if($_SERVER['HTTP_HOST'] == 'anofie.classiebit.com')
+    $server = 'live'; // live env
 
 define('ENVIRONMENT', $server);
 /* ------------- ENVIRONMENT ----------- */
@@ -101,13 +107,22 @@ switch (ENVIRONMENT) {
         
         break;
 
-    case 'testing':
+    case 'production':
+        ini_set('display_errors', 0);
+		if (version_compare(PHP_VERSION, '5.3', '>='))
+			error_reporting(E_ALL & ~E_NOTICE & ~E_DEPRECATED & ~E_STRICT & ~E_USER_NOTICE & ~E_USER_DEPRECATED);
+		else
+			error_reporting(E_ALL & ~E_NOTICE & ~E_STRICT & ~E_USER_NOTICE);
+
+        break;
+
+    case 'dev':
         error_reporting(-1);
         ini_set('display_errors', 1);
         
         break;
-        
-    case 'production':
+
+    case 'live':
         ini_set('display_errors', 0);
 		if (version_compare(PHP_VERSION, '5.3', '>='))
 			error_reporting(E_ALL & ~E_NOTICE & ~E_DEPRECATED & ~E_STRICT & ~E_USER_NOTICE & ~E_USER_DEPRECATED);
