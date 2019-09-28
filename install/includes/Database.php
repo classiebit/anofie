@@ -27,7 +27,7 @@ class Database {
 	// Function to create the tables and fill them with the default data
 	function create_tables($data)
 	{
-		// Connect to the database
+        // Connect to the database
 		$mysqli = new mysqli($data['hostname'],$data['username'],$data['password'],$data['database']);
 
 		// Check for errors
@@ -37,9 +37,9 @@ class Database {
 		// Open the default SQL file
 
         // install with dummy data
-        if($_POST['sample_data'])
+        if($data['sample_data'])
         {
-            // install empty database
+            // install dummy database (with dummy data)
 		    $query = file_get_contents('database/anofie_dummy_db.sql');
         }
         else

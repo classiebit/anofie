@@ -55,6 +55,9 @@ class MY_Controller extends CI_Controller {
     {
         parent::__construct();
 
+        // check if anofie is installed
+        $this->is_installed();
+        
         // autoload composer files
         include APPPATH . "/vendor/autoload.php";
 
@@ -191,6 +194,19 @@ class MY_Controller extends CI_Controller {
         ->add_external_js(array(
             "/themes/core/js/core_i18n.js",
         ), NULL, TRUE);
+    }
+
+    /**
+     *  Check if installed
+    */
+    function is_installed()
+    {
+        // if upload general directory not exist means app is not installed
+        if(!is_dir(BASEPATH.'../upload/general'))
+        {
+            echo 'Anofie is not installed. Read the <a href="https://anofie-docs.classiebit.com" target="_blank">Anofie Docs</a>';exit;
+        }
+            
     }
 
     /**

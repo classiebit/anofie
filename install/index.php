@@ -43,6 +43,7 @@ if($_POST && INSTALL_MODE === 1) {
          * 4. Write database.php
          * 5. Create database tables and add data
           */
+
         if($database->create_database($_POST) == false) 
         {
 			$message = $core->show_message('error',"The database could not be created, please verify your settings.");
@@ -156,7 +157,7 @@ if($_POST && INSTALL_MODE === 1) {
                 <div class="card-heading">
                     <div class="instructions">
                         <h2 class="text-center"><small style="font-size: 12px !important;font-weight: 600 !important;">V1.0</small> Anofie Lite | Installer</h2>
-                        <p style="text-align: center;font-size: 14px;"><strong><em>IMPORTANT! </em> Please read the installation guide in <a href="http://anofie-docs.classiebit.com" target="_blank"></a>Anofie docs.</strong></p>
+                        <p style="text-align: center;font-size: 14px;"><strong><em>IMPORTANT! </em> Please read the installation guide in <a href="http://anofie-docs.classiebit.com" style="color: #00BCD4 !important;" target="_blank">Anofie docs</a></strong></p>
                         
                     </div>
                     <footer>

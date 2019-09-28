@@ -60,9 +60,14 @@ class Users_model extends CI_Model {
     public function get_recent_users()
     {
         $this->db->select($this->select)
-                ->where(array('active'=>1, 'users.is_deleted'=>0))
-                ->order_by('id', 'DESC')
-                ->limit(13);
+                ->where(array('active'=>1, 'users.is_deleted'=>0));
+
+        if(DEMO_MODE)
+            $this->db->order_by('id', 'ASC');
+        else
+            $this->db->order_by('id', 'DESC');
+                
+        $this->db->limit(13);
 
         return  $this->db->get('users')->result();
     }

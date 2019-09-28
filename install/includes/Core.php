@@ -152,7 +152,7 @@ class Core {
 
     function transfer_files($is_dummy = FALSE) 
 	{
-		$transfer 					= array();
+        $transfer 					= array();
 		
 		// upload
 		$transfer[0]['source'] 		= 'uploads/empty/';
