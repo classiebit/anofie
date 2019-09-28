@@ -10,6 +10,8 @@ Just **download** it, **install** directly on **your server** and start collecti
 
 #### Read the beautiful documentation here - [Anofie Docs](https://anofie-docs.classiebit.com)
 
+#### Live Preview - [Anofie](https://anofie.classiebit.com)
+
 ---
 
 ![Anofie - Anonymous feedback script remastered](https://anofie-docs.classiebit.com/images/anofie-docs-banner-1.jpg "Anofie - Anonymous feedback script remastered")
