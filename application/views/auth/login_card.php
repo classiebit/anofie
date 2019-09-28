@@ -4,6 +4,12 @@
     <div class="text-center text-muted mb-4">
         <small><?php echo lang('users_login_with') ?></small>
     </div>
+
+    <?php if(DEMO_MODE) { ?>
+    <div class="text-center text-muted mb-4">
+        <small><a href="https://anofie-docs.classiebit.com/docs/1.0/demo-accounts" target="_blank">Visit here for Demo Accounts</a></small>
+    </div>
+    <?php } ?>
     
     <?php echo form_open('auth/do_login', array('class'=>'', 'id'=>'form_login')); ?>
         <div class="form-group mb-3">
