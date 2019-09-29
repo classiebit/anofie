@@ -17,6 +17,10 @@ class ComposerStaticInitc75221738c812a57f87c821427e13877
             'Psr\\Http\\Message\\' => 17,
             'PHPMailer\\PHPMailer\\' => 20,
         ),
+        'J' => 
+        array (
+            'Jaybizzle\\CrawlerDetect\\' => 24,
+        ),
         'H' => 
         array (
             'Http\\Promise\\' => 13,
@@ -24,7 +28,6 @@ class ComposerStaticInitc75221738c812a57f87c821427e13877
             'Http\\Discovery\\' => 15,
             'Http\\Client\\Curl\\' => 17,
             'Http\\Client\\' => 12,
-            'Hashids\\' => 8,
         ),
         'C' => 
         array (
@@ -40,6 +43,10 @@ class ComposerStaticInitc75221738c812a57f87c821427e13877
         'PHPMailer\\PHPMailer\\' => 
         array (
             0 => __DIR__ . '/..' . '/phpmailer/phpmailer/src',
+        ),
+        'Jaybizzle\\CrawlerDetect\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/jaybizzle/crawler-detect/src',
         ),
         'Http\\Promise\\' => 
         array (
@@ -61,10 +68,6 @@ class ComposerStaticInitc75221738c812a57f87c821427e13877
         'Http\\Client\\' => 
         array (
             0 => __DIR__ . '/..' . '/php-http/httplug/src',
-        ),
-        'Hashids\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/hashids/hashids/src',
         ),
         'Clue\\StreamFilter\\' => 
         array (

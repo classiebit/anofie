@@ -63,6 +63,7 @@ Anofie comes with an installer that makes the installation process fully automat
 
 * If installing on the local system, please do not create a database, just enter localhost database credentials & installer will auto-create the new database.
 * Anofie can also be installed on `subdomain.example.com` or `example.com/subfolder/`
+* The `captcha` & `upload` directory must be **writable**
 * After installation if you see something like `Error number: 1146 Table settings don't exist` or a `blank page`, **just hit refresh**.
 
 

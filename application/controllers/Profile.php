@@ -98,9 +98,7 @@ class Profile extends Public_Controller {
             
         $messages               = $this->input->post('message');
 
-        $user_id                = $this->input->post('user_id');
-        // decode id
-        $user_id                = decode_id($user_id);
+        $user_id                = (int) $this->input->post('user_id');
         
         $user                   = $this->users_model->get_users_by_id($user_id, FALSE, TRUE);
         if(empty($user))

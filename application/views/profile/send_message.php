@@ -57,7 +57,7 @@
                 <?php echo form_open_multipart(site_url('profile/send_message'), array('role'=>'form', 'class'=>'form-horizontal', 'id'=>'form-create')); ?>
                 <form action="" role="form" class="form-horizontal" id="form-create" enctype="multipart/form-data" method="post" accept-charset="utf-8">
                 <input type="hidden" name="<?php echo $this->security->get_csrf_token_name(); ?>" value="<?php echo $this->security->get_csrf_hash(); ?>">
-                <input type="hidden" name="user_id" value="<?php echo encode_id($user->id) ?>">
+                <input type="hidden" name="user_id" value="<?php echo $user->id ?>">
                 <div class="card shadow">
                     <div class="card-body">
                         <div class="bg-wrapper">

@@ -54,42 +54,33 @@
         ]
     },
     {
-        "name": "hashids/hashids",
-        "version": "4.0.0",
-        "version_normalized": "4.0.0.0",
+        "name": "jaybizzle/crawler-detect",
+        "version": "v1.2.84",
+        "version_normalized": "1.2.84.0",
         "source": {
             "type": "git",
-            "url": "https://github.com/vinkla/hashids.git",
-            "reference": "43bb2407f16a631f0128f47bcb67ff986c63dde2"
+            "url": "https://github.com/JayBizzle/Crawler-Detect.git",
+            "reference": "b7f35477a56609dd0d753c07ada912b66af3df01"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/vinkla/hashids/zipball/43bb2407f16a631f0128f47bcb67ff986c63dde2",
-            "reference": "43bb2407f16a631f0128f47bcb67ff986c63dde2",
+            "url": "https://api.github.com/repos/JayBizzle/Crawler-Detect/zipball/b7f35477a56609dd0d753c07ada912b66af3df01",
+            "reference": "b7f35477a56609dd0d753c07ada912b66af3df01",
             "shasum": ""
         },
         "require": {
-            "ext-mbstring": "*",
-            "php": "^7.2"
+            "php": ">=5.3.0"
         },
         "require-dev": {
-            "phpunit/phpunit": "^8.0"
+            "phpunit/phpunit": "^4.8|^5.5|^6.5",
+            "satooshi/php-coveralls": "1.*"
         },
-        "suggest": {
-            "ext-bcmath": "Required to use BC Math arbitrary precision mathematics (*).",
-            "ext-gmp": "Required to use GNU multiple precision mathematics (*)."
-        },
-        "time": "2019-04-03T13:40:29+00:00",
+        "time": "2019-06-14T21:10:21+00:00",
         "type": "library",
-        "extra": {
-            "branch-alias": {
-                "dev-master": "4.0-dev"
-            }
-        },
         "installation-source": "dist",
         "autoload": {
             "psr-4": {
-                "Hashids\\": "src/"
+                "Jaybizzle\\CrawlerDetect\\": "src/"
             }
         },
         "notification-url": "https://packagist.org/downloads/",
@@ -98,28 +89,19 @@
         ],
         "authors": [
             {
-                "name": "Ivan Akimov",
-                "email": "ivan@barreleye.com",
-                "homepage": "https://twitter.com/IvanAkimov"
-            },
-            {
-                "name": "Vincent Klaiber",
-                "email": "hello@doubledip.se",
-                "homepage": "https://doubledip.se"
+                "name": "Mark Beech",
+                "email": "m@rkbee.ch",
+                "role": "Developer"
             }
         ],
-        "description": "Generate short, unique, non-sequential ids (like YouTube and Bitly) from numbers",
-        "homepage": "http://hashids.org/php",
+        "description": "CrawlerDetect is a PHP class for detecting bots/crawlers/spiders via the user agent",
+        "homepage": "https://github.com/JayBizzle/Crawler-Detect/",
         "keywords": [
-            "bitly",
-            "decode",
-            "encode",
-            "hash",
-            "hashid",
-            "hashids",
-            "ids",
-            "obfuscate",
-            "youtube"
+            "crawler",
+            "crawler detect",
+            "crawler detector",
+            "crawlerdetect",
+            "php crawler detect"
         ]
     },
     {

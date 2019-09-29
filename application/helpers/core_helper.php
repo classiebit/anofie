@@ -478,48 +478,6 @@ if ( ! function_exists('time_ago'))
 }
 
 
-
-
-// ------------------------------------------------------------------------
-if ( ! function_exists('encode_id'))
-{
-    /**
-     * Create short hash of an id
-     * using salt
-     * 
-     * id = int
-      */
-    function encode_id($id = null) 
-    {
-        $id         = (int) $id;
-
-        $salt       = 'ec44fafb4a865466c5d013f2691eafcb';
-        $hashids    = new Hashids\Hashids($salt);
-        return $hashids->encode($id, $id, $id);
-    }
-
-}
-
-// ------------------------------------------------------------------------
-if ( ! function_exists('decode_id'))
-{
-    /**
-     * Decode the above
-     * 
-     * 
-     * hash = string
-      */
-    function decode_id($hash = null) 
-    {
-        $hash       = (string) trim(urldecode($hash));
-
-        $salt       = 'ec44fafb4a865466c5d013f2691eafcb';
-        $hashids    = new Hashids\Hashids($salt);
-        return (int) $hashids->decode($hash)[0];
-    }
-
-}
-
 // ------------------------------------------------------------------------
 if ( ! function_exists('validate_username'))
 {
