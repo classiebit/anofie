@@ -44,7 +44,7 @@ Just **download** it, **install** directly on **your server** and start collecti
 Anofie comes with an installer that makes the installation process fully automated and smooth as 🍻
 
 
-![Anofie Installer](https://anofie-docs.classiebit.com/images/anofie-free-installer-1.png "Anofie Installer Screenshot")
+![Anofie Installer](https://anofie-docs.classiebit.com/images/installer-lite-1.jpg "Anofie Installer Screenshot")
 
 
 ---
