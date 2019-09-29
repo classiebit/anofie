@@ -89,9 +89,6 @@ if (strpos($domain, 'classiebit.com') !== FALSE || strpos($domain, 'anofie.test'
     define('DEMO_MODE', 1);
 else
     define('DEMO_MODE', 0);
-
-
-echo DEMO_MODE;exit;
 /* ------------- DEMO MODE ------------- */
 
 /*
