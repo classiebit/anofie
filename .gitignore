@@ -1,6 +1,4 @@
 # custom
-upload/*
-captcha/*
 application/config/dev
 application/config/live
 
