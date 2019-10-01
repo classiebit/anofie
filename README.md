@@ -1,10 +1,10 @@
-# Anofie
+# Anofie Lite
 
 Anofie is an anonymous feedback system. Using Anofie, you can launch your dedicated platform for Anonymous Feedback on your domain. Anofie is better than the popular anonymous feedback website. It is more secure, scalable & ready to use in production. 
 
 <br>
 
-Just **download** it, **install** directly on **your server** and start collecting **honest** suggestions and feedbacks from your friends, employees, or customers creatively and professionally.
+Just **download** it, **install** directly on **your server** and start collecting **honest** suggestions and feedback from your friends, employees, or customers creatively and professionally.
 
 ---
 
@@ -18,7 +18,7 @@ Just **download** it, **install** directly on **your server** and start collecti
 
 ---
 
-> **Here's a complete video tutorial guide for getting started quickly ✌️**
+> **Here's a complete video tutorial guide for getting started quickly [Anofie Academy](https://classiebit.com/academy/anofie/getting-started) ✌️**
 
 ---
 
