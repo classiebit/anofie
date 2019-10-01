@@ -23,7 +23,7 @@
 <meta property="twitter:description" content="<?php echo $this->meta_description; ?>" />
 
 <!-- Google Analytics -->
-<?php if(ENVIRONMENT === 'production' && !empty($this->settings->g_analytic)) { ?>
+<?php if((ENVIRONMENT === 'production' || ENVIRONMENT === 'live')  && !empty($this->settings->g_analytic)) { ?>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=<?php echo $this->settings->g_analytic ?>"></script>
 <script>
