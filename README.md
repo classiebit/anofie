@@ -46,11 +46,6 @@ Anofie comes with an installer that makes the installation process fully automat
 
 ![Anofie Installer](https://anofie-docs.classiebit.com/images/installer-lite-1.jpg "Anofie Installer Screenshot")
 
-
----
-
-> **We've made a video for you to get started quickly. Have a look 💪**
-
 ---
 
 ## Server Requirements

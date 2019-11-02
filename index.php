@@ -71,8 +71,8 @@ $server = 'development'; // local env
 if($_SERVER['REMOTE_ADDR'] != '127.0.0.1' && 
     $_SERVER['REMOTE_ADDR'] != '::1' && 
     $_SERVER['HTTP_HOST'] != 'devanofie.classiebit.com' &&
-    $_SERVER['HTTP_HOST'] != 'anofie.com')
-    $server = 'production'; // live main env
+    $_SERVER['HTTP_HOST'] != 'anofie.classiebit.com')
+    $server = 'production'; // production main env
 
 if($_SERVER['HTTP_HOST'] == 'devanofie.classiebit.com')
     $server = 'dev'; // dev env
