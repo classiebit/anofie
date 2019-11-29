@@ -64,9 +64,6 @@ class MY_Controller extends CI_Controller {
         // get global settings
         $this->get_settings();
 
-        // redirect to https under few conditions
-        $this->redirect_https();
-
         // init regional settings
         $this->regional_settings();
 
