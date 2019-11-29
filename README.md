@@ -34,8 +34,8 @@ Just **download** it, **install** directly on **your server** and start collecti
 
 **Anofie Pro Version** comes with **Commercial** license. Pro version is fully loaded with a lot of useful and exciting features.
 
-+ [Live](https://anofie.com) - Coming soon.
-+ [Purchase](https://classiebit.com/anofie-pro) - Subscribe now for notifications, will be soon available for Purchase here
++ [Live](https://anofie.com) - Live preview available now.
++ [Purchase](https://classiebit.com/anofie-pro) - Available for purchase now - Flat 50% Off (limited time offer)
 
 ---
 
